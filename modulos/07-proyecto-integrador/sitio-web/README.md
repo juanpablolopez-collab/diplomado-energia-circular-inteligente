@@ -28,8 +28,9 @@ Las cifras del resumen (1.000 hogares sintéticos, 77,7 % de exactitud en la dec
 ## Datos y procedencia
 
 - `data/resumen.json` declara como origen **`dataset_solar_popayan_v2.csv`**, con 1.000 hogares sintéticos.
-- Ese archivo **no está incluido** en este repositorio: en `datos/solar_popayan/` se conserva la versión original (`dataset_solar_popayan.csv`). Conviene ubicar o regenerar la v2 antes de usar el sitio como evidencia reproducible.
-- El modelo y las métricas son resultados offline generados a partir de esa v2; el sitio solo los consume.
+- **El nombre "v2" es engañoso**: al contrastar las cifras del JSON con el dataset del repositorio, coinciden exactamente (consumo medio 111,52 kWh/mes; estratos 650/200/150; target 40 %/40 %/20 %). Es decir, los resultados parecen calculados sobre [`datos/solar_popayan/dataset_solar_popayan.csv`](../../../datos/solar_popayan/README.md), no sobre un archivo distinto.
+- El generador de la celda 1 del notebook correcto sí produce otro dataset (consumo ≈ 182,6 y target 35/35/30), por lo que **no** corresponde a estos resultados.
+- El modelo y las métricas son resultados offline; el sitio solo los consume.
 
 ## Ejecutar localmente
 
