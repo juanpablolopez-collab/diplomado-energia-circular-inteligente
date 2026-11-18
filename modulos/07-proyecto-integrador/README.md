@@ -11,6 +11,7 @@ Código y evidencias del proyecto integrador del diplomado. Está basado en el d
 | [`notebooks/Proyecto_Integrador_Solar_Popayan.ipynb`](notebooks/Proyecto_Integrador_Solar_Popayan.ipynb) | Notebook principal (2 celdas; la segunda tiene ~1.700 líneas) | Pipeline completo: ETL → EDA → ML supervisado y no supervisado → series temporales → optimización → economía circular → dashboard Gradio → exportación |
 | [`notebooks/Autogeneracion_Solar_Fotovoltaica.ipynb`](notebooks/Autogeneracion_Solar_Fotovoltaica.ipynb) | Extensión de IA (8 celdas) | Stack neuronal: `HogarAdopcionNet` (PyTorch), entrenamiento/evaluación, LLM local y túnel ngrok para Gradio |
 | [`export_colab/autogeneracion_solar_fotovoltaica.py`](export_colab/autogeneracion_solar_fotovoltaica.py) | Exportación automática de Colab del notebook anterior | **Solo como referencia/archivo fuente**: no es un script ejecutable fuera de Colab |
+| [`sitio-web/`](sitio-web/README.md) | Copia del dashboard desplegado en https://popayan-solar.vercel.app | Divulgación del proyecto: 9 secciones y modelo SolarNet-MT corriendo en el navegador |
 
 Los nombres de archivo se normalizaron (sin tildes) para evitar problemas de codificación entre Windows y GitHub. El contenido de los tres archivos se conservó íntegro.
 
@@ -61,5 +62,6 @@ python modulos/07-proyecto-integrador/export_colab/autogeneracion_solar_fotovolt
 ## Pendiente
 
 - Unificar la celda duplicada en una sola fuente.
+- Localizar o regenerar `dataset_solar_popayan_v2.csv`, usado por el sitio web (el repositorio solo conserva la v1).
 - Separar la configuración de entorno (Colab vs local) y eliminar la magia `!pip` del export.
 - Agregar el informe técnico, el resumen ejecutivo y la declaración de uso de IA exigidos para opción de grado.
