@@ -35,6 +35,7 @@ Repositorio de trabajo del **Diplomado en Energía Circular Inteligente 5.0** de
 ```text
 .
 ├── documento/                 # PDF original de la propuesta
+├── normativa/                 # Leyes, decretos y CONPES organizados por módulo
 ├── modulos/                   # Material y evidencias por módulo (01 a 07)
 │   ├── 01-transicion-energetica-politica-territorio/
 │   ├── 02-eficiencia-energetica-medicion-iso50001/
@@ -64,6 +65,8 @@ Repositorio de trabajo del **Diplomado en Energía Circular Inteligente 5.0** de
 | Proyecto integrador | 25 % |
 
 ## Referentes
+
+El detalle de las normas colombianas descargadas y su ubicación por módulo está en [`normativa/README.md`](normativa/README.md).
 
 - **Internacionales:** ISO 50001:2018, ISO 14001:2015, ISO 14040/14044, ISO 14064-1:2018, GHG Protocol, ODS 7, 9, 11, 12 y 13.
 - **Colombia:** Ley 30 de 1992, Ley 697 de 2001, Ley 1715 de 2014 (mod. Ley 2099 de 2021), Ley 2169 de 2021, Ley 2294 de 2023, Decreto 2236 de 2023, CONPES 4075 de 2022, CONPES 4144 de 2025, PAI-PROURE 2022-2030, Estrategia Nacional de Economía Circular, Ley 1581 de 2012 y RETIE.
