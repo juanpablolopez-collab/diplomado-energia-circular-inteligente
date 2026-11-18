@@ -11,6 +11,8 @@ env/
 datos/*
 !datos/.gitkeep
 !datos/README.md
+!datos/solar_popayan/
+!datos/solar_popayan/**
 
 # Modelos y pesos (no versionar binarios grandes)
 modelos/*

@@ -73,6 +73,7 @@ El detalle de las normas colombianas descargadas y su ubicación por módulo est
 
 ## Notas
 
+- El conjunto de ejemplo [`datos/solar_popayan/`](datos/solar_popayan/README.md) tiene 1.000 hogares y 99 variables; verificar su proveniencia antes de usarlo como evidencia real.
 - Los datos reales (facturas, imágenes, registros) deben **anonimizarse** antes de versionarse.
 - Los pesos de modelos de IA y los activos generativos grandes no se suben al repositorio; se registra su **ficha técnica** (versión, licencia, tamaño, checksum y uso autorizado).
 - El proyecto integrador debe conservar archivos fuente, parámetros esenciales y validación humana de los resultados generados con IA.
