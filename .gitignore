@@ -32,6 +32,14 @@ modelos/*
 # Salidas generadas por el pipeline (se regeneran al ejecutar)
 outputs/
 
+# Archivos auxiliares de LaTeX (el PDF y las figuras si se versionan)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+
 # Entornos y secretos
 .env
 *.env
