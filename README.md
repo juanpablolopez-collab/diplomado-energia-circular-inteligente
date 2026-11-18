@@ -73,6 +73,7 @@ El detalle de las normas colombianas descargadas y su ubicación por módulo est
 
 ## Notas
 
+- Los resultados descargables de la app Gradio (ZIP con 108 archivos) están en [`entregables/`](entregables/INVENTARIO.md).
 - El proyecto integrador (código, notebooks, sitio web y observaciones de la revisión) está en [`modulos/07-proyecto-integrador/`](modulos/07-proyecto-integrador/README.md). Los notebooks están diseñados para Google Colab. El dashboard público está en https://popayan-solar.vercel.app.
 - El conjunto de ejemplo [`datos/solar_popayan/`](datos/solar_popayan/README.md) tiene 1.000 hogares y 99 variables; verificar su proveniencia antes de usarlo como evidencia real.
 - Los datos reales (facturas, imágenes, registros) deben **anonimizarse** antes de versionarse.

@@ -17,6 +17,19 @@ Aplicación generada por la Celda 2 de [`notebooks/proyecto.ipynb`](../notebooks
 - Modelos: 6 clásicos + red neuronal multimodal PyTorch (MLP numérico + embeddings categóricos + Conv1d de 24 h).
 - Mejor modelo por F1-macro en validación cruzada: **Regresión Logística** (AUC macro 0,496; F1-macro test 0,340).
 
+## Conclusiones (pestaña 23)
+
+- Mejor clasificador por validación cruzada: **Regresión Logística** (AUC macro 0,496; F1-macro test 0,340).
+- La comparativa incluye la red neuronal multimodal PyTorch con rama Conv1d sobre el perfil horario de 24 h.
+- SHAP aplicado sobre Random Forest; Permutation Importance sobre el modelo final.
+- Auditoría de equidad por estrato, zona y género del jefe del hogar.
+
+## Descargas disponibles
+
+La pestaña Conclusiones ofrece un **ZIP de 17,7 MB** (`resultados_proyecto_solar_popayan.zip`) con 108 archivos: 1 metadata, 52 gráficos HTML interactivos, 38 tablas CSV y 17 modelos (`.joblib`, `.pt`, `.json`). También permite descargar cada archivo por separado.
+
+El paquete completo se conservó en [`entregables/`](../../../entregables/INVENTARIO.md) de este repositorio; allí está el inventario detallado. Las descargas individuales equivalen a los archivos del ZIP.
+
 ## Relación con el resto del proyecto
 
 | Salida | Dataset que usa | Cifras clave |
