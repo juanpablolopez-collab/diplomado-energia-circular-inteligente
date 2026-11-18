@@ -1,0 +1,28 @@
+
+
+*Estructura de un buen prompt: 
+
+-Por ejemplo este prompt lo ponemos en ChatGPT
+
+ROL --->  CONTEXTO ---> Tarea/Problema A RESOLVER ---> Ejemplos (+, -) 
+---> Formato de salida (texto, audio, video, lista, tabla,...tono deseado, etc.)
+
+
+***Prompt MAESTRO (se recomienda usar Perplexity una vez tengamos el prompt anterior)
+(se recomienda usar archivos .md)
+
+Loop = ciclo (bucle)
+
+"Hazme el prompt maestro para esto: pegamos el prompt aquí"
+
+Ahora mi colega Juan va a hacer una demo!
+
+DEMO:
+que dice la ley de educacion, ley 115 de colombia \temperature 0.2
+
+probar variando los valores para los parametros del LLM de:
+\temperature 0.9
+\humanity 0.2
+\humanity 0.9
+
+eres un ingeniero senior de prompting con mas d e6 años de experiencia, vas a redactar el prompt maestro para: una landing page de un negocio de maquillaje en la ciudad de popayan, usando V0 dev de vercell, minimalista, moderno y llamativo para los clientes, ese prompt debe estar en un archivo .MD

@@ -1,0 +1,31 @@
+\section{Guías metodológicas de los docentes}
+Además del marco normativo y territorial, los docentes del diplomado suministraron ejemplos y guías que definen el nivel de detalle esperado en el proyecto integrador. Estos materiales se conservan íntegramente en \texttt{guias/profesores/} y se citan en esta sección para dejar constancia de su influencia en el diseño metodológico.
+
+\subsection{Estructura de un buen prompt}
+La guía \texttt{prompts/Estructura de un buen prompt-diplomado-IA-Unicomfa.txt} establece la secuencia:
+\begin{quote}
+\emph{ROL $\rightarrow$ CONTEXTO $\rightarrow$ TAREA/problema a resolver $\rightarrow$ EJEMPLOS (positivos y negativos) $\rightarrow$ FORMATO de salida} (texto, audio, video, lista, tabla, tono deseado, etc.).
+\end{quote}
+Posteriormente se recomienda un ``prompt maestro'' construido a partir de esa estructura, con archivos \texttt{.md}, y la variación controlada de parámetros del modelo (\texttt{temperature}, \texttt{humanity}) para comparar resultados. En el proyecto se aplicó este criterio a la generación de código, documentación y productos visuales, conservando en cada caso los archivos fuente y la validación humana.
+
+\subsection{Patrón de dashboard Gradio}
+El documento \texttt{prompts/PROMPTS.docx} contiene ejemplos de prompts para construir dashboards Gradio con EDA y redes neuronales sobre los datasets iris y california housing. El patrón exigido incluye pestañas de dataframe, estadísticas descriptivas, distribuciones univariadas, bivariadas y multivariadas, matriz de correlación y una pestaña final de conclusiones o \emph{insights}. La aplicación del Módulo 7 adopta este patrón y lo amplía a 24 pestañas, incorporando clasificación, regresión, SHAP, equidad, series temporales, optimización y RAEE.
+
+\subsection{Ejemplo de caso territorial}
+El archivo \texttt{diplomado-energia-ia/Explorador\_de\_escenarios\_Planta\_de\_cafe\_Cauca.ipynb-Colab.pdf} muestra un explorador de escenarios para una pequeña planta de café del Cauca con datos explícitamente sintéticos. Este ejemplo justifica la advertencia ética incluida en la Sección VIII: los resultados se presentan como hipótesis y no como mediciones reales, en coherencia con la Ley 1581 de 2012.
+
+\subsection{Inventario de materiales recibidos}
+\begin{table}[p]
+\caption{Guías y ejemplos de los docentes conservados en el repositorio}
+\centering\footnotesize
+\begin{tabular}{@{}ll@{}}
+\toprule
+Ruta & Contenido \\
+\midrule
+\texttt{guias/profesores/diplomado-energia-ia/} & Propuesta oficial (MD/PDF), explorador de escenarios y materiales Kimi/Perplexity \\
+\texttt{guias/profesores/prompts/} & Estructura de prompt y ejemplos de dashboards Gradio \\
+\texttt{guias/profesores/enlaces/} & Enlaces a notebooks de Colab y recursos de IA \\
+\texttt{guias/profesores/datasets-inventado/} & Dataset de ejemplo en CSV, JSON y XLS \\
+\bottomrule
+\end{tabular}
+\end{table}

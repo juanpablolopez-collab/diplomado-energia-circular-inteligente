@@ -45,6 +45,7 @@ Repositorio de trabajo del **Diplomado en Energía Circular Inteligente 5.0** de
 │   ├── 06-ia-generativa-multimodal-2d-a-3d/
 │   └── 07-proyecto-integrador/   # Notebooks, export y sitio web del caso solar Popayán
 ├── guias-laboratorio/         # Guías de las 15 prácticas sugeridas
+├── guias/profesores/          # Ejemplos y guías compartidas por los docentes
 ├── plantillas/                # Línea base, auditoría, ficha de modelo, etc.
 ├── codigo/                    # Scripts, notebooks y aplicaciones
 ├── datos/                     # Conjuntos de datos (anonimizados)
@@ -73,6 +74,7 @@ El detalle de las normas colombianas descargadas y su ubicación por módulo est
 
 ## Notas
 
+- Las guías y ejemplos de los profesores están en [`guias/profesores/`](guias/profesores/README.md) y se citan en el apéndice metodológico del artículo.
 - La memoria en formato IEEE (fuente LaTeX y PDF) está en [`documento/ieee/`](documento/ieee/README.md).
 - Los resultados descargables de la app Gradio (ZIP con 108 archivos) están en [`entregables/`](entregables/INVENTARIO.md).
 - El proyecto integrador (código, notebooks, sitio web y observaciones de la revisión) está en [`modulos/07-proyecto-integrador/`](modulos/07-proyecto-integrador/README.md). Los notebooks están diseñados para Google Colab. El dashboard público está en https://popayan-solar.vercel.app.

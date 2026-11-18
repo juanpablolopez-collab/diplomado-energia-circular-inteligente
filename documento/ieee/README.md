@@ -8,6 +8,7 @@ Versión completa en formato IEEE del proyecto integrador *Autogeneración solar
 | --- | --- |
 | `main.tex` | Fuente principal (`IEEEtran`, dos columnas, español) |
 | `apendices.tex` | Apéndices generados (matriz normativa, modelos, 38 tablas, 52 gráficas, anexos y código) |
+| `guias_metodologicas.tex` | Apéndice con las guías y ejemplos de los profesores |
 | `main.pdf` | PDF compilado (59 páginas) |
 | `figuras/` | 3 figuras propias generadas desde el dataset y el tablero web |
 | `figuras_gradio/` | **52 gráficas PDF** convertidas desde los HTML Plotly del ZIP de Gradio |
