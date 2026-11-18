@@ -10,17 +10,15 @@
 \usepackage{amsmath}
 \usepackage{url}
 \usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{listings}
+\lstset{basicstyle=\tiny\ttfamily,breaklines=true,frame=single,
+  columns=flexible,showstringspaces=false,captionpos=b}
 
 \title{Autogeneración solar fotovoltaica en hogares de Popayán:\\
 propuesta integrada de energía circular inteligente e IA (2026--2030)}
 
-\author{Juan Pablo López\IEEEauthorblockA{Diplomado en Energía Circular Inteligente 5.0\\
-Facultad de Ingeniería -- Unicomfacauca\\
-Popayán, Cauca, Colombia}\\
-\and Jean Sules\IEEEauthorblockA{Diplomado en Energía Circular Inteligente 5.0\\
-Facultad de Ingeniería -- Unicomfacauca\\
-Popayán, Cauca, Colombia}\\
-\and Santiago Amú\IEEEauthorblockA{Diplomado en Energía Circular Inteligente 5.0\\
+\author{Juan Pablo López, Jean Sules y Santiago Amú\IEEEauthorblockA{Diplomado en Energía Circular Inteligente 5.0\\
 Facultad de Ingeniería -- Unicomfacauca\\
 Popayán, Cauca, Colombia}}
 
@@ -212,6 +210,8 @@ Directorio & Contenido \\
 
 \section{Reproducibilidad y enlaces}
 El artículo puede recompilarse con MiKTeX ejecutando \texttt{pdflatex main.tex} dos veces desde el directorio \texttt{documento/ieee/}. Las figuras se generan desde el dataset y el JSON del tablero web. Los despliegues asociados son \url{https://popayan-solar.vercel.app/} y la aplicación Gradio documentada en \texttt{modulos/07-proyecto-integrador/gradio-app/}. El token de ngrok fue redactado del código fuente y debe proporcionarse mediante la variable de entorno \texttt{NGROK\_AUTHTOKEN}.
+
+\input{apendices}
 
 \bibliographystyle{IEEEtran}
 \begin{thebibliography}{99}
