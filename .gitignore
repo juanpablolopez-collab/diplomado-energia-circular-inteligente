@@ -29,6 +29,9 @@ modelos/*
 # Activos generativos grandes: no se ignoran porque son entregables.
 # Si superan el tamaño recomendado, usar Git LFS (git lfs track "*.glb", etc.).
 
+# Salidas generadas por el pipeline (se regeneran al ejecutar)
+outputs/
+
 # Entornos y secretos
 .env
 *.env

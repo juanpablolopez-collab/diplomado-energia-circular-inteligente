@@ -43,7 +43,7 @@ Repositorio de trabajo del **Diplomado en Energía Circular Inteligente 5.0** de
 │   ├── 04-economia-circular-ciclo-vida-carbono/
 │   ├── 05-ia-local-datos-rag-codigo/
 │   ├── 06-ia-generativa-multimodal-2d-a-3d/
-│   └── 07-proyecto-integrador/
+│   └── 07-proyecto-integrador/   # Notebooks y export del caso solar Popayán
 ├── guias-laboratorio/         # Guías de las 15 prácticas sugeridas
 ├── plantillas/                # Línea base, auditoría, ficha de modelo, etc.
 ├── codigo/                    # Scripts, notebooks y aplicaciones
@@ -73,6 +73,7 @@ El detalle de las normas colombianas descargadas y su ubicación por módulo est
 
 ## Notas
 
+- El proyecto integrador (código, notebooks y observaciones de la revisión) está en [`modulos/07-proyecto-integrador/`](modulos/07-proyecto-integrador/README.md). Los notebooks están diseñados para Google Colab.
 - El conjunto de ejemplo [`datos/solar_popayan/`](datos/solar_popayan/README.md) tiene 1.000 hogares y 99 variables; verificar su proveniencia antes de usarlo como evidencia real.
 - Los datos reales (facturas, imágenes, registros) deben **anonimizarse** antes de versionarse.
 - Los pesos de modelos de IA y los activos generativos grandes no se suben al repositorio; se registra su **ficha técnica** (versión, licencia, tamaño, checksum y uso autorizado).
