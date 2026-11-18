@@ -53,6 +53,8 @@ Repositorio de trabajo del **Diplomado en Energía Circular Inteligente 5.0** de
 └── entregables/               # Productos finales del proyecto integrador
 ```
 
+Cada carpeta de `modulos/` contiene un `README.md` con propósito, contenidos conceptuales, procedimentales y actitudinales, prácticas, herramientas, contextualización territorial y evidencias. `guias-laboratorio/` desarrolla las 15 prácticas con procedimiento y criterios de calidad; `plantillas/` reúne los formatos exigidos por el diplomado.
+
 ## Evaluación
 
 | Componente | Peso |

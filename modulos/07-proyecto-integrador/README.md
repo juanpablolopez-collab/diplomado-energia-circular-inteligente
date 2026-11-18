@@ -2,7 +2,21 @@
 
 **Autogeneración Solar Fotovoltaica en Hogares de Popayán, Cauca (2026-2030)**
 
-Versión correcta del proyecto integrador (reemplaza los notebooks enviados anteriormente). Basada en el dataset [`datos/solar_popayan/`](../../datos/solar_popayan/README.md).
+| Campo | Valor |
+| --- | --- |
+| Distribución | 0 teóricas + 20 prácticas = 20 h |
+| Peso en la evaluación | 25 % |
+| Equipos | 3 a 5 participantes |
+
+**Propósito.** Resolver una necesidad energética y circular mediante una solución que combine diagnóstico, medición, análisis, IA local, prototipado, comunicación y viabilidad.
+
+La versión correcta del proyecto (que reemplaza los notebooks enviados anteriormente) está basada en el dataset [`datos/solar_popayan/`](../../datos/solar_popayan/README.md).
+
+**Casos admisibles:** pequeña planta agroindustrial (café, alimentos, lácteos, empaques); hotel, restaurante, transporte, comercio o centro logístico; institución educativa, laboratorio o dependencia pública; acueducto comunitario, bombeo, finca tecnificada o centro de acopio; constructora, taller o emprendimiento de aprovechamiento; comunidad energética en etapa conceptual o sistema fotovoltaico con necesidades de operación.
+
+**Criterio de autenticidad.** La evaluación no premia la cantidad de herramientas, sino la coherencia entre problema, datos, cálculo, decisión, prototipo y evidencia. Los productos generados con IA conservan archivos fuente, versiones, parámetros esenciales y validación humana.
+
+**Requisitos de opción de grado.** Aprobación previa del tema, memoria técnica, repositorio organizado, evidencia de aporte individual, informe de originalidad y declaración de uso de IA, sustentación ante jurados y producto transferible.
 
 ## Archivos
 
