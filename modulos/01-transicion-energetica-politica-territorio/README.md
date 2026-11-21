@@ -58,7 +58,7 @@ Mapa territorial argumentado, matriz normativa y formulación del problema que o
 ## Artefactos del repositorio
 
 - DIPLOMADO.pdf (formulación del problema, mapa territorial y matriz normativa)
-- documento/ieee/main.pdf (artículo IEEE)
+- modulos/07-proyecto-integrador/autogeneracion-solar-fotovoltaica-en-hogares-de-popayan.pdf (artículo IEEE)
 
 ## Guías de laboratorio sugeridas
 

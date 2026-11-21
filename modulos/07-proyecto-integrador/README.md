@@ -26,6 +26,7 @@ La versión correcta del proyecto (que reemplaza los notebooks enviados anterior
 | [`export_colab/proyecto.py`](export_colab/proyecto.py) | Exportación de Colab del notebook anterior (2.441 líneas). Compila como Python; los imports de `google.colab` están protegidos para que funcione fuera de Colab |
 | [`sitio-web/`](sitio-web/README.md) | Copia del dashboard desplegado en https://popayan-solar.vercel.app |
 | [`gradio-app/`](gradio-app/README.md) | Ficha y captura del despliegue Gradio temporal salido de este notebook |
+| [`autogeneracion-solar-fotovoltaica-en-hogares-de-popayan.pdf`](autogeneracion-solar-fotovoltaica-en-hogares-de-popayan.pdf) | Artículo IEEE compilado (59 páginas) sobre este proyecto integrador |
 
 Los nombres se normalizaron (sin tildes) para evitar problemas de codificación entre Windows y GitHub.
 
